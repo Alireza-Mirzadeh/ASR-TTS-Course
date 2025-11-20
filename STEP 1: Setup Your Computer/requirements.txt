@@ -1,0 +1,20 @@
+# If you have a GPU and want to use it, comment the following line to install nvidia / cuda packages (takes 2~3 Gb extra space)
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch
+torchaudio
+jupyter
+matplotlib
+soundfile
+flashlight-text
+
+torchmetrics
+librosa
+requests
+deep-phonemizer
+speechbrain
+transformers
+
+# (Non-working) wMOS part
+#git+https://github.com/Natalia-T/wvmos
+
